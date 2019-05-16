@@ -1,0 +1,381 @@
+{
+  "settings": {
+    "name": "Site-03-25_1711",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "Sleek",
+      "title": "Sleek",
+      "styling": {}
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "4.9.5",
+    "siteFonts": [],
+    "snow": "",
+    "uniqCompNum": 9,
+    "versionPublish": "4.6.0",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Home",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            "&.mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__menu": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "60px"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": false,
+            "transparent": true,
+            "color": "#2c2c2c",
+            "hamburgerColor": "#ffffff"
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">SAMPLE PAGE</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-secondary-outline\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "images/logo.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sleek",
+              "link": "https://mobirise.com"
+            }
+          },
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sleeker</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1920x1080.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome to the Sleek",
+          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Purchase Now</a><a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-primary\" href=\"#\">Learn More</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-1"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "countdown": "2019/04/20",
+            "paddingTop": 1,
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/8.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": 0.6
+          },
+          "title": "Our new product launch",
+          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-8"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 1,
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/5.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#3498DB",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/4.png"
+            }
+          },
+          "media2": {
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY"
+            }
+          },
+          "title": "Welcome to the Sleek",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac facilisis ante. Praesent gravida tempus suscipit. Praesent vel sem id ligula malesuada vehicula at id orci. In sem quam, semper id fringilla sed, sodales a ante. Ut molestie a lorem in luctus. Suspendisse dignissim leo quis purus mollis fermentum.",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-left btn-info\" href=\"https://mobirise.com\">Learn More</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-3"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/40.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#fff8e0",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222222",
+            "overlayOpacity": 0.4,
+            "autoplay": true,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/1.png",
+                "active": true,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "cite": "- Rebecca<span>XYZ Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/2.png",
+                "active": false,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "cite": "- John Doe<span>ABC Company",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              }
+            ]
+          },
+          "title": "Welcome to the Sleek",
+          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn app-btn btn-1\" href=\"#\">Download Now<i class=\"mbr-iconfont-btn\"></i></a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "header7",
+          "_anchor": "header7-2"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "paddingTop": 4,
+            "paddingBottom": 0,
+            "bgColor": "#efefef",
+            "images": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-2-419x627.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-419x627-419x627.jpg",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-1-419x627.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-419x627-419x627.jpg",
+                "active": true,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-419x627.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-419x627-419x627.jpg",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/mbr-3-419x627.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-419x627-419x627.jpg",
+                "active": false,
+                "alt": "",
+                "title": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "title": "Check Product Screenshots",
+          "text": " Suspendisse egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "gallery1",
+          "_anchor": "gallery1-4"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "bgColorRadio": true,
+            "bgColor": "#3498DB",
+            "overlay": false,
+            "overlayColor": "#fff",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "img-responsive mbr-figure--full-width",
+              "src": "@PROJECT_PATH@/assets/images/4.jpg"
+            },
+            "video": {
+              "active": false,
+              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Creative design",
+          "text": "<p>Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-left btn-white\" href=\"https://mobirise.com\">Learn More</a>",
+          "items": "<li><i class=\"fa fa-check\"></i> Morbi porta felis ac augue aucto</li><li><i class=\"fa fa-check\"></i> Aenean vitae orci a lacus tempor</li><li><i class=\"fa fa-check\"></i> Etiam vel elit vitae cursus condimentum</li><li><i class=\"fa fa-check\"></i> Donec condimentum est eget magna</li><li><i class=\"fa fa-check\"></i> nec neque ut urna tincidunt sit</li>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-5"
+        },
+        {
+          "_params": {
+            "firstType": "default",
+            "secondType": "default",
+            "thirdType": "default",
+            "fourthType": "default",
+            "showMainTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "lineColor": "#3498db",
+            "paddingTop": 2,
+            "paddingBottom": 1,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#222222",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "mainTitle": "CHOOSE YOUR BEST PLAN",
+          "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
+          "title1": "<strong>Basic</strong>",
+          "title2": "<strong>Standard</strong>",
+          "title3": "<strong>Premium<span class=\"label label-success\">Best Value!</span></strong>",
+          "title4": "<strong>Ultimate</strong>",
+          "cents1": "<span>77</span>",
+          "cents2": "<span>77</span>",
+          "cents3": "<span>77</span>",
+          "cents4": "<span>77</span>",
+          "price1": "$9<span mbr-html=\"cents1\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price2": "$19<span mbr-html=\"cents2\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price3": "$29<span mbr-html=\"cents3\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price4": "$49<span mbr-html=\"cents4\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "period1": "per month",
+          "period2": "per month",
+          "period3": "per month",
+          "period4": "per month",
+          "list1": "<ul class=\"list-group\"><li class=\"list-group-item\">5 Projects</li><li class=\"list-group-item\">5 GB of Storage</li><li class=\"list-group-item\">Up to 100 Users</li><li class=\"list-group-item\">10 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list2": "<ul class=\"list-group\"><li class=\"list-group-item\">10 Projects</li><li class=\"list-group-item\">10 GB of Storage</li><li class=\"list-group-item\">Up to 250 Users</li><li class=\"list-group-item\">25 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list3": "<ul class=\"list-group\"><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">50 GB of Storage</li><li class=\"list-group-item\">Up to 1000 Users</li><li class=\"list-group-item\">100 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list4": "<ul class=\"list-group\"><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">150 GB of Storage</li><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">500 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "button1": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button3": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button4": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "alias": "sleek/components",
+          "_tags": [
+            "Тема"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-6"
+        }
+      ]
+    }
+  }
+}
