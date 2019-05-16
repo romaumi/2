@@ -11,9 +11,12 @@
     "versionFirst": "4.9.5",
     "siteFonts": [],
     "snow": "",
-    "uniqCompNum": 9,
+    "uniqCompNum": 14,
     "versionPublish": "4.6.0",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "favicon": "",
+    "noImageResize": "",
+    "seo-meta": ""
   },
   "pages": {
     "index.html": {
@@ -374,6 +377,50 @@
           ],
           "_name": "pricing-table1",
           "_anchor": "pricing-table1-6"
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showCaptions": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showIcons": true,
+            "icon1": "fa fa-star",
+            "icon2": "fa fa-plane",
+            "icon3": "fa fa-paper-plane-o",
+            "icon4": "fa fa-pie-chart",
+            "icon5": "fa fa-cat",
+            "icon6": "fa fa-phone",
+            "iconsColor": "#3498DB",
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title1": "Responsive Design",
+          "caption1": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "title2": "Quick Support",
+          "caption2": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "title3": "Mailchimp Newsletter",
+          "caption3": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "title4": "Awesome Stats",
+          "caption4": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "title5": "Easy update",
+          "caption5": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "title6": "Video Support",
+          "caption6": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content4",
+          "_anchor": "content4-d",
+          "_styles": {
+            ".container i": {
+              "background-color": "#3498DB"
+            }
+          }
         }
       ]
     }
