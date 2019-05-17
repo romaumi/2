@@ -455,7 +455,7 @@
                 "title": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-800x80045.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-800x80060.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/800x800-800x800.jpg",
                 "active": true,
                 "alt": "",
@@ -557,21 +557,21 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-650x65046.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-650x65061.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
-                "src": "@PROJECT_PATH@/assets/images/-800x80045.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/-48x4848.png",
+                "src": "@PROJECT_PATH@/assets/images/-800x80060.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-48x4863.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-650x65047.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-650x65062.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/-1600x1600.jpg",
-                "tooltip": "@PROJECT_PATH@/assets/images/-48x4849.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-48x4864.png",
                 "title": "title 1",
                 "text": "text 1",
                 "active": false
@@ -630,41 +630,41 @@
                 "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-881x60050.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-881x60065.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9%20%D1%85%D0%B0%D0%BC%D0%BC-1440x980.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/-70x4855.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4870.png",
                 "title": "title 3",
                 "text": "text 3",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-881x60051.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-881x60066.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/%D1%85%D0%BE%D0%BD%D0%B4%D0%B0%20%D0%B7%D0%B5%D0%BB-1440x980.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/-70x4856.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4871.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-881x60052.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-881x60067.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D1%80%D1%81-1440x980.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/-70x4857.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4872.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-881x60053.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-881x60068.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/%D0%B1%D0%BC%D0%B2%20%D0%B1%D0%B5%D0%BB%20%D1%81%D0%B8%D0%BD-1440x980.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/-70x4858.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4873.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
@@ -680,11 +680,11 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/-881x60054.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-881x60069.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/%D1%84%D0%B5%D1%80%D1%80%20%D0%BA%D1%80%D0%B0%D1%81%D0%BD-1440x980.png",
-                "tooltip": "@PROJECT_PATH@/assets/images/-70x4859.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4874.png",
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
