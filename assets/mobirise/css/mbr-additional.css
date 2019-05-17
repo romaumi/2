@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
 #menu-0 .mbr-brand__name {
   font-size: 16px;
 }
@@ -12,6 +14,16 @@
 }
 #menu-0 .mbr-brand__name a {
   font-size: 60px;
+}
+#header1-1 P {
+  font-size: 36px;
+}
+#pricing-table1-6 .mbr-section-mainTitle {
+  color: #2c2c2c;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+#pricing-table1-6 .mbr-section-title STRONG {
+  font-size: 20px;
 }
 #content4-d .container i {
   background-color: #3498DB;

@@ -5,13 +5,17 @@
     "theme": {
       "name": "Sleek",
       "title": "Sleek",
-      "styling": {}
+      "styling": {},
+      "additionalSetColors": [
+        "#2c2c2c",
+        "#222222"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.5",
     "siteFonts": [],
     "snow": "",
-    "uniqCompNum": 14,
+    "uniqCompNum": 22,
     "versionPublish": "4.6.0",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -63,14 +67,15 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/421421tten1-1-135x128.png",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
               "alt": "Sleek",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": ""
             }
           },
-          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Sleeker</a>",
+          "brand": "<a data-app-btn=\"true\" class=\"navbar-brand\" href=\"\" data-app-selector=\".mbr-brand__name a\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Велостер</a>",
           "alias": "sleek/components",
           "_tags": [
             "Тема"
@@ -98,21 +103,26 @@
             "overlayColor": "#222222",
             "overlayOpacity": 0.5
           },
-          "title": "Welcome to the Sleek",
-          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Purchase Now</a><a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-primary\" href=\"#\">Learn More</a>",
+          "title": "Хит Этого Лета&nbsp;",
+          "text": "с доставкой в Орел и Кромы",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\" data-toolbar=\"-mbrBtnMove\">Purchase Now</a><a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-primary\" href=\"#\" data-toolbar=\"-mbrBtnMove\">Lrn More</a>",
           "alias": "sleek/components",
           "_tags": [
             "Тема"
           ],
           "_name": "header1",
-          "_anchor": "header1-1"
+          "_anchor": "header1-1",
+          "_styles": {
+            "P": {
+              "font-size": "36px"
+            }
+          }
         },
         {
           "_params": {
             "showTitle": true,
             "showText": true,
-            "countdown": "2019/04/20",
+            "countdown": "2019/05/20",
             "paddingTop": 1,
             "paddingBottom": 0,
             "bgImageRadio": true,
@@ -128,8 +138,8 @@
             "overlayColor": "#222222",
             "overlayOpacity": 0.6
           },
-          "title": "Our new product launch",
-          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
+          "title": "Ближайшая доставка",
+          "text": "",
           "alias": "sleek/components",
           "_tags": [
             "Theme"
@@ -142,13 +152,14 @@
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "paddingTop": 1,
+            "icon1": "fa fa-paper-plane-o",
+            "paddingTop": 0,
             "paddingBottom": 0,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/5.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/-2-557x695.jpg",
             "parallax": false,
             "bgColorRadio": false,
-            "bgColor": "#3498DB",
+            "bgColor": "#fff8e0",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -157,28 +168,202 @@
             "overlayColor": "#222222",
             "overlayOpacity": 0.5
           },
+          "title": "Welcome to the Sleek",
+          "text": "Lorem ipsum dolor sit amet adipiscing elit curabitur sapien leo consequat sed aliquam at convallis sit amet metus. Vivamus malesuada ex in placerat bibendum, est dui euismod sapien, eget tincidunt nunc ipsum ut mauris.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn intro-newsletter-button newsletter-btn btn btn-info\"><i class=\"fa fa-paper-plane-o\"></i></a>",
+          "form": {
+            "action": "RomaUmi@mail.ru",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email Address here..."
+              }
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-i"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/-2-557x695.jpg",
+                "active": true,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "cite": "- John Doe<span>ABC Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-604x544.png",
+                "active": false,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "cite": "- Rebecca<span>XYZ Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-408x408.png",
+                "active": false,
+                "showText": true,
+                "showCite": true,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "cite": "- Rebecca<span>XYZ Company</span>",
+                "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-h"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
+            "showText": true,
+            "showArticles": true,
+            "showButtons": true,
+            "showIcons": true,
+            "icon1": "fa fa-magic",
+            "icon2": "fa fa-tablet",
+            "icon3": "fa fa-toggle-on",
+            "paddingTop": 3,
+            "paddingBottom": "3",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Download App",
+          "text": "Morbi laoreet scelerisque orci finibus ullam corper quam semper utac aliquam magna quis",
+          "button": "<a data-app-btn=\"true\" href=\"#\" title=\"Download for Iphone\"><i class=\"fa fa-mobile\"></i></a><a data-app-btn=\"true\" href=\"#\" title=\"Download for Android\"><i class=\"fa fa-android\"></i></a><a data-app-btn=\"true\" href=\"#\" title=\"Download for Windows\"><i class=\"fa fa-windows\"></i></a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "src": "@PROJECT_PATH@/assets/images/-2-557x695.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "subTitle1": "Multi Homepages",
+          "subTitle2": "Custom Forms",
+          "subTitle3": "Creative Design",
+          "article1": "Morbi laoreet scelerisque orci finibus ullam corper quam sed aliquam semper utac aliquam magna quis",
+          "article2": "Morbi laoreet scelerisque orci finibus ullam corper quam sed aliquam semper utac aliquam magna quis",
+          "article3": "Morbi laoreet scelerisque orci finibus ullam corper quam sed aliquam semper utac aliquam magna quis",
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-j"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showCaption": true,
+            "showSubTitles": false,
+            "showArticles": false,
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/2.jpg",
+            "parallax": false,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "header": "CHECK WHAT WE ARE CAPABLE OF",
+          "caption": "Suspendisse7 egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
+          "header1": "Sed commodo suscipit",
+          "article1": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "header2": "Maecenas ut dapibus",
+          "article2": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "header3": "Varius molestie nec",
+          "article3": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
           "media": {
             "image": {
               "active": true,
               "class": "img-responsive",
-              "src": "@PROJECT_PATH@/assets/images/4.png"
+              "src": "@PROJECT_PATH@/assets/images/-2-557x695.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
           "media2": {
-            "video": {
+            "image": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY"
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/-604x544.png",
+              "link": "",
+              "alt": "",
+              "title": ""
             }
           },
-          "title": "Welcome to the Sleek",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac facilisis ante. Praesent gravida tempus suscipit. Praesent vel sem id ligula malesuada vehicula at id orci. In sem quam, semper id fringilla sed, sodales a ante. Ut molestie a lorem in luctus. Suspendisse dignissim leo quis purus mollis fermentum.",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-left btn-info\" href=\"https://mobirise.com\">Learn More</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/-408x408.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
           "alias": "sleek/components",
           "_tags": [
-            "Тема"
+            "Theme"
           ],
-          "_name": "header5",
-          "_anchor": "header5-3"
+          "_name": "content5",
+          "_anchor": "content5-k"
         },
         {
           "_params": {
@@ -188,7 +373,7 @@
             "paddingTop": 0,
             "paddingBottom": 0,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/40.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/4.jpg",
             "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#fff8e0",
@@ -202,8 +387,8 @@
             "autoplay": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/1.png",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/-540x510.png",
+                "active": false,
                 "showText": true,
                 "showCite": true,
                 "title": "Slide 1",
@@ -212,8 +397,8 @@
                 "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/2.png",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/-408x408.png",
+                "active": true,
                 "showText": true,
                 "showCite": true,
                 "title": "Slide 2",
@@ -242,30 +427,37 @@
             "bgColor": "#efefef",
             "images": [
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-2-419x627.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-2-419x627-419x627.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-557x695.png",
+                "thumb": "@PROJECT_PATH@/assets/images/557x695-557x694.png",
                 "active": false,
                 "alt": "",
                 "title": ""
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/mbr-1-419x627.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-1-419x627-419x627.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-800x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/800x800-800x800.jpg",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-1600x1600.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1600x1600-800x800.jpg",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-1200x638.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1200x638-800x425.jpg",
+                "active": false,
+                "alt": "",
+                "title": ""
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-800x80045.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/800x800-800x800.jpg",
                 "active": true,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-419x627.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-419x627-419x627.jpg",
-                "active": false,
-                "alt": "",
-                "title": ""
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/mbr-3-419x627.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mbr-3-419x627-419x627.jpg",
-                "active": false,
                 "alt": "",
                 "title": ""
               }
@@ -284,59 +476,263 @@
         {
           "_params": {
             "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "showCaption": true,
+            "showSubTitles": true,
+            "showArticles": true,
+            "paddingTop": 2,
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/bg/2.jpg",
+            "parallax": false,
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
             "bgColorRadio": true,
-            "bgColor": "#3498DB",
-            "overlay": false,
-            "overlayColor": "#fff",
+            "bgColor": "#fff",
+            "overlay": true,
+            "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
+          "header": "CHECK WHAT WE ARE CAPABLE OF",
+          "caption": "Suspendisse7 egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
+          "header1": "Sed commodo suscipit",
+          "article1": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "header2": "Maecenas ut dapibus",
+          "article2": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
+          "header3": "Varius molestie nec",
+          "article3": "Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula.",
           "media": {
             "image": {
               "active": true,
-              "class": "img-responsive mbr-figure--full-width",
-              "src": "@PROJECT_PATH@/assets/images/4.jpg"
-            },
-            "video": {
-              "active": false,
-              "src": "https://www.youtube.com/watch?v=fo1T_DkeSqY",
-              "class": "mbr-figure__img",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/1.jpg"
             }
           },
-          "title": "Creative design",
-          "text": "<p>Sed commodo suscipit neque et suscipit. Cras feugiat porttitor libero sed finibus. Morbi elit nulla, rutrum eu nulla eu, lacinia tincidunt ligula. </p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-left btn-white\" href=\"https://mobirise.com\">Learn More</a>",
-          "items": "<li><i class=\"fa fa-check\"></i> Morbi porta felis ac augue aucto</li><li><i class=\"fa fa-check\"></i> Aenean vitae orci a lacus tempor</li><li><i class=\"fa fa-check\"></i> Etiam vel elit vitae cursus condimentum</li><li><i class=\"fa fa-check\"></i> Donec condimentum est eget magna</li><li><i class=\"fa fa-check\"></i> nec neque ut urna tincidunt sit</li>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/2.jpg"
+            }
+          },
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "img-responsive",
+              "src": "@PROJECT_PATH@/assets/images/3.jpg"
+            }
+          },
           "alias": "sleek/components",
           "_tags": [
-            "Тема"
+            "Theme"
           ],
-          "_name": "msg-box2",
-          "_anchor": "msg-box2-5"
+          "_name": "content5",
+          "_anchor": "content5-f"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "basic_linear",
+            "theme": "absent",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/-650x650.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/-800x800.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-48x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-626x650.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D0%BA%D0%B8%D1%82%D0%B0%D1%8F%D0%BD%D0%BA%D0%B0%20%D1%81%20%D1%81%D0%B8%D0%BD%D0%B8%D0%BC-750x778.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-46x48.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-650x65046.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/-800x80045.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-48x4848.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-650x65047.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/-1600x1600.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-48x4849.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "captionsEffect": "slide",
+            "showBullets": true,
+            "bgColor": "#ffffff",
+            "timeout": "1",
+            "duration": 2,
+            "customSize": true,
+            "customWidth": "650",
+            "customHeight": "650",
+            "size": "1024x576",
+            "width": "650",
+            "height": "650"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-g"
+        },
+        {
+          "_params": {
+            "autoplay": true,
+            "animType": "blur",
+            "theme": "luxury",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/-857x600.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D0%B1%D0%B5%D0%BB%20%D0%BB%D0%B5%D0%BD%D0%B4-745x521.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-68x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-881x600.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%BE%D1%80%D1%88-1440x980.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": true
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-881x60050.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9%20%D1%85%D0%B0%D0%BC%D0%BC-1440x980.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4855.png",
+                "title": "title 3",
+                "text": "text 3",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-881x60051.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D1%85%D0%BE%D0%BD%D0%B4%D0%B0%20%D0%B7%D0%B5%D0%BB-1440x980.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4856.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-881x60052.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B5%D1%80%D1%81-1440x980.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4857.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-881x60053.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D0%B1%D0%BC%D0%B2%20%D0%B1%D0%B5%D0%BB%20%D1%81%D0%B8%D0%BD-1440x980.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4858.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-943x600.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D1%81%D0%B5%D1%80%D1%8B%D0%B9%20%D0%BC%D0%B5%D1%80%D1%81%20-%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F-800x509.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-75x48.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-881x60054.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/%D1%84%D0%B5%D1%80%D1%80%20%D0%BA%D1%80%D0%B0%D1%81%D0%BD-1440x980.png",
+                "tooltip": "@PROJECT_PATH@/assets/images/-70x4859.png",
+                "title": "title 2",
+                "text": "text 2",
+                "active": false
+              }
+            ],
+            "fullScreen": true,
+            "showCaptions": false,
+            "hideControls": false,
+            "responsive": "1",
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "captionsEffect": "slide",
+            "showBullets": false,
+            "bgColor": "#ffffff",
+            "timeout": "1",
+            "duration": "2.5",
+            "customSize": true,
+            "customWidth": "1000",
+            "customHeight": "600",
+            "size": "1024x576",
+            "width": "1000",
+            "height": "600"
+          },
+          "articleLayout": false,
+          "alias": "wowslider",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "wowslider",
+          "_anchor": "wowslider-l"
         },
         {
           "_params": {
             "firstType": "default",
             "secondType": "default",
-            "thirdType": "default",
-            "fourthType": "default",
+            "thirdType": "hidden",
+            "fourthType": "hidden",
             "showMainTitle": true,
-            "showText": true,
+            "showText": false,
             "showButtons": true,
-            "lineColor": "#3498db",
+            "lineColor": "#b3c211",
             "paddingTop": 2,
-            "paddingBottom": 1,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/photo-3.jpg",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#222222",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -345,18 +741,18 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "mainTitle": "CHOOSE YOUR BEST PLAN",
+          "mainTitle": "<b>лучшая цена</b>",
           "text": "Suspendisse egestas mattis rhoncus pellen tesque euismod erat at posuere molestie lorem lectus interdum augue",
-          "title1": "<strong>Basic</strong>",
-          "title2": "<strong>Standard</strong>",
+          "title1": "<strong>нескладная рама</strong>",
+          "title2": "<strong>складная рама</strong>",
           "title3": "<strong>Premium<span class=\"label label-success\">Best Value!</span></strong>",
           "title4": "<strong>Ultimate</strong>",
           "cents1": "<span>77</span>",
           "cents2": "<span>77</span>",
           "cents3": "<span>77</span>",
           "cents4": "<span>77</span>",
-          "price1": "$9<span mbr-html=\"cents1\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
-          "price2": "$19<span mbr-html=\"cents2\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price1": "₽10900<span mbr-html=\"cents1\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
+          "price2": "₽11900<span mbr-html=\"cents2\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
           "price3": "$29<span mbr-html=\"cents3\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
           "price4": "$49<span mbr-html=\"cents4\" data-app-edit=\"content\" data-app-placeholder=\"0\" class=\"price-cents\"></span>",
           "period1": "per month",
@@ -364,11 +760,11 @@
           "period3": "per month",
           "period4": "per month",
           "list1": "<ul class=\"list-group\"><li class=\"list-group-item\">5 Projects</li><li class=\"list-group-item\">5 GB of Storage</li><li class=\"list-group-item\">Up to 100 Users</li><li class=\"list-group-item\">10 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
-          "list2": "<ul class=\"list-group\"><li class=\"list-group-item\">10 Projects</li><li class=\"list-group-item\">10 GB of Storage</li><li class=\"list-group-item\">Up to 250 Users</li><li class=\"list-group-item\">25 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
+          "list2": "<ul class=\"list-group\"><li class=\"list-group-item\">10 Projects</li><li class=\"list-group-item\">10 GB of Storage</li><li class=\"list-group-item\">Up to 250 Users</li><li class=\"list-group-item\">25 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"><br></li></ul>",
           "list3": "<ul class=\"list-group\"><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">50 GB of Storage</li><li class=\"list-group-item\">Up to 1000 Users</li><li class=\"list-group-item\">100 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
           "list4": "<ul class=\"list-group\"><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">150 GB of Storage</li><li class=\"list-group-item\">Unlimited</li><li class=\"list-group-item\">500 GB Bandwidth</li><li class=\"list-group-item\">Security Suite</li><li class=\"list-group-item\"></li></ul>",
-          "button1": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
-          "button2": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
+          "button1": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">SЗадать вопро</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">SЗадать</a>",
+          "button2": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\"></a>",
           "button3": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
           "button4": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-info\" href=\"#\">Sign Up Now!</a>",
           "alias": "sleek/components",
@@ -376,7 +772,17 @@
             "Тема"
           ],
           "_name": "pricing-table1",
-          "_anchor": "pricing-table1-6"
+          "_anchor": "pricing-table1-6",
+          "_styles": {
+            ".mbr-section-mainTitle": {
+              "color": "#2c2c2c",
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700"
+            },
+            ".mbr-section-title STRONG": {
+              "font-size": "20px"
+            }
+          }
         },
         {
           "_params": {
@@ -421,6 +827,47 @@
               "background-color": "#3498DB"
             }
           }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showButtons": true,
+            "icon1": "fa fa-paper-plane-o",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/sleek/components/_images/photo-3.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3498DB",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "Subscribe to our newsletter to receive latest news & updates",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn intro-newsletter-button btn btn-primary newsletter-btn\"><i class=\"fa fa-paper-plane-o\"></i></a>",
+          "form": {
+            "action": "RomaUmi@mail.ru",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "email": {
+                "title": "Email",
+                "customTitle": "Enter Your Email Address..."
+              }
+            }
+          },
+          "alias": "sleek/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form2",
+          "_anchor": "form2-e"
         }
       ]
     }
